@@ -1,0 +1,31 @@
+{
+    "name": "petitp/flot-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony PetitpFlotBundle - bundle for jquery Flot library",
+    "keywords": ["flot"],
+    "homepage": "https://github.com/petitp/flot-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrej Hudec",
+            "homepage": "https://github.com/petitp"
+        },
+        {
+            "name": "Petitp Flot Community",
+            "homepage": "https://github.com/petitp/flot-bundle/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "Petitp\\Bundle\\FlotBundle": "" }
+    },
+    "target-dir": "Petitp/Bundle/FlotBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.8.x-dev"
+        }
+    }
+}
