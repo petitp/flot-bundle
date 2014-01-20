@@ -10,7 +10,7 @@ namespace Petitp\Bundle\FlotBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SonatajQueryBundle extends Bundle
+class PetitpFlotBundle extends Bundle
 {
 
 }
